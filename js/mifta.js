@@ -29,9 +29,9 @@ var sections = [
 		},
 		{	sentence: " in a hurry to graduate",
 		},
-		{	sentence: " Chatgaiya",
+		{	sentence: " a Chatgaiya",
 		},
-		{	sentence: " full stack developer @WebAbleDigital",
+		{	sentence: " a full stack developer @WebAbleDigital",
 		},
 		{	sentence: " thinking of beaches and blue water",
 		},
@@ -40,6 +40,10 @@ var sections = [
 		{	sentence: " kicking some developers' asses",
 		},
 		{	sentence: " curious to know you",
+		},
+		{	sentence: " trying to build up her portfolio",
+		},
+		{	sentence: " an otaku",
 		}
 	];
 var i = 0;
