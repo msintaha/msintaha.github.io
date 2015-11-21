@@ -3,9 +3,7 @@
     GLOBALS 
 -------------------------*/
 var sections = [
-		{	sentence: " an enthusiatic developer based in Bangladesh",
-		},
-		{	sentence: " fighting for him",
+		{	sentence: " an enthusiastic developer based in Bangladesh",
 		},
 		{	sentence: " a lover of learning new things",
 		},
