@@ -1,10 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,900,300);
-/*@mixin transition($value){
-  -webkit-transition: ($value);
-     -moz-transition: ($value);
-      -ms-transition: ($value);
-          transition: ($value);
-}*/
 body, html {
   height: 100%;
   color: white;
@@ -15,6 +9,76 @@ body, html {
   -o-transition: background 20s linear;
   transition: background 20s linear;
 }
+
+
+.social {
+  text-align: center;
+}
+
+.social .link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px dashed white;
+  background-clip: content-box;
+  padding: 7px;
+  transition: .5s;
+  color: #D7D0BE;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-shadow:
+    0 -1px 0 rgba(0, 0, 0, 0.2),
+    0 1px 0 rgba(255, 255, 255, 0.2);
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social .link:hover {
+  padding: 20px;
+  color: white;
+  margin-left: -5px;
+  transform: translateX(10px) rotate(360deg);
+}
+
+.social .link.google-plus {
+  background-color: tomato;
+  color: white;
+}
+
+.social .link.twitter {
+  background-color: #00ACEE;
+  color: white;
+}
+.social .link.youtube {
+  background-color: #c4302b;
+  color: white;
+}
+.social .link.linkedin {
+  background-color: #0e76a8;
+  color: white;
+}
+.social .link.github {
+  background-color: #3a3a3a;
+  color: white;
+}
+
+.social .link.facebook {
+  background-color: #3B5998;
+  color: white;
+}
+
 
 .noTransition {
   -webkit-transition: none;
@@ -63,7 +127,6 @@ h4 {
   max-width: 90%;
   z-index: 1;
   margin: 0 auto;
-  padding-bottom: 50px;
 }
 
 .clearfix:after {
@@ -110,14 +173,14 @@ h4 {
 }
 
 section {
-  margin-bottom: 16vh;
+  margin-bottom: 9vh;
 }
 section h4 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   letter-spacing: 1px;
 }
 section h4:after {
-  content: url("/img/line.svg");
+
   position: absolute;
   -webkit-transform: translate(5%, -20%);
   -moz-transform: translate(5%, -20%);
@@ -175,7 +238,7 @@ section h4:after {
 }
 
 .shortColumn {
-  width: 45%;
+  width: 62%;
 }
 
 .loopCol {
@@ -231,15 +294,6 @@ section h4:after {
 /* -------------------------------
 		 GET IN TOUCH 
 ----------------------------------*/
-.email {
-  font-size: 4vw;
-  font-family: 'Lato', sans-serif;
-  position: relative;
-  margin: 10px 0 4vh 0;
-  display: block;
-  text-decoration: none !important;
-  border: none;
-}
 
 /* -------------------------------
 		 FEATURES
