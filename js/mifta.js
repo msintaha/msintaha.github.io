@@ -21,8 +21,6 @@ var sections = [
 		},
 		{	sentence: " not so secretly in love with Ian Somerhalder",
 		},
-		{	sentence: " finally updating his portfolio",
-		},
 		{	sentence: " thinking what to write next",
 		},
 		{	sentence: " thinking of ways to be famous",
