@@ -88,7 +88,7 @@ function writing(text){
 				$(".afterTyping").one().addClass("onScreen");
 			}
 			if( j === lengthSentence-1 && forward){
-				interval = 2000;
+				interval = 1000;
 			}
 			if(j < lengthSentence && forward ){
 				if(sections[i].sentence[j] === "&"){
@@ -192,13 +192,13 @@ $(document).ready(function(){
 	}, 2000)   
 	setInterval(function(){
 		changebackground();
-	}, 20000);
+	}, 2000);
 
 
 	/*--------------------
 		TYPING 
 	----------------------*/
-	var firstTimer = 5000;
+	var firstTimer = 2000;
 	var text = $(".jstext");
 	setTimeout(function(){
 		writing(text);
@@ -247,20 +247,3 @@ $(document).ready(function($) {
 		}
 	);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
