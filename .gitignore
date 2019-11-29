@@ -1,8 +1,0 @@
-.idea
-.DS_Store
-.vscode
-mjr/
-*.pem
-node_modules/
-.cache/
-public/
