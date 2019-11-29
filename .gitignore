@@ -5,3 +5,4 @@ mjr/
 *.pem
 node_modules/
 .cache/
+public/
