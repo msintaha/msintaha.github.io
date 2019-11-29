@@ -26,20 +26,20 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-c46c95748c347468b443.js"
+    "url": "webpack-runtime-3a3b79c8683060d30ef3.js"
   },
   {
     "url": "commons-2a54b2fe259571950058.js"
   },
   {
-    "url": "app-01ced7b8667b51cdcc0e.js"
+    "url": "app-41bf718ba49fb2f729dc.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-568c113b24a9e8ed8db8.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "7eb3d581cd2256a94a6abf3ec36728ad"
+    "revision": "8ca861ef9eb3dd327faca7d6f6352159"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -47,7 +47,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "9ce681c410da78e1aca4cb1363365c55"
+    "revision": "62b90b19c65fe99cafcc53211085c9c8"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -66,12 +66,12 @@ const { NavigationRoute } = workbox.routing
 
 const navigationRoute = new NavigationRoute(async ({ event }) => {
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/resume`), ``)
+  pathname = pathname.replace(new RegExp(`^/msintaha.github.io`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/resume/app-01ced7b8667b51cdcc0e.js`))) {
+  if (!resources || !(await caches.match(`/msintaha.github.io/app-41bf718ba49fb2f729dc.js`))) {
     return await fetch(event.request)
   }
 
@@ -84,7 +84,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/resume/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/msintaha.github.io/offline-plugin-app-shell-fallback/index.html`
   return await caches.match(offlineShell)
 })
 
