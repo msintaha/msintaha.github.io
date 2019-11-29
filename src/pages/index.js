@@ -18,7 +18,7 @@ const IndexPage = () => (
             {config.firstName}
             <span className="text-primary">{config.lastName}</span>
           </h2>
-          <div className="subheading mb-5 lowercase main">
+          <div className="subheading mb-5 withBorder main">
             {config.address} ·&nbsp;
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
@@ -54,7 +54,7 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h4 className="mb-0">Software Engineer</h4>
-              <div className="subheading mb-3 lowercase">NewsCred</div>
+              <div className="subheading mb-3 withBorder">NewsCred</div>
               <p>
                 Enhanced the experience and built features for NewsCred's main software - <a href="https://www.newscred.com/platform/">The Marketing Platform</a> <br />
                 <ul>
@@ -70,7 +70,7 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h4 className="mb-0">Content Creator</h4>
-              <div className="subheading mb-3 lowercase">YouTube</div>
+              <div className="subheading mb-3 withBorder">YouTube</div>
               <p>
                 <ul>
                   {config.youtubeExperience.map(e => <li>{e}</li>)}
@@ -85,7 +85,7 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h4 className="mb-0">Software Engineer (Freelance)</h4>
-              <div className="subheading mb-3 lowercase">EduHive</div>
+              <div className="subheading mb-3 withBorder">EduHive</div>
               <p>
                 <ul>
                   <li><a href="https://eduhive.com.bd"><strong>EduHive (Web)</strong></a>: Created features for the web platform EduHive - a Learning Management System which included - enabling online mock admission tests, generating mark-sheets along with answer sheets, implemented  an exam question builder, integrated KaTex math equation rich text area and authentication middleware.
@@ -102,7 +102,7 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h4 className="mb-0">Author</h4>
-              <div className="subheading mb-3 lowercase">Packt Publishing</div>
+              <div className="subheading mb-3 withBorder">Packt Publishing</div>
               <p>
                 Published video course on the basics of 
                 &nbsp;<a href="https://www.packtpub.com/application-development/learning-react-native-development-videos">
@@ -117,7 +117,7 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h4 className="mb-0">Web Developer (Part time)</h4>
-              <div className="subheading mb-3 lowercase">WebAble Digital</div>
+              <div className="subheading mb-3 withBorder">WebAble Digital</div>
               <p>
                 <ul>
                   <li>Created dynamic websites with AngularJS, ExpressJS & MeteorJS</li>
@@ -134,7 +134,7 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h4 className="mb-0">Teaching Assistant (Undergraduate)</h4>
-              <div className="subheading mb-3 lowercase">BRAC University</div>
+              <div className="subheading mb-3 withBorder">BRAC University</div>
               <p>
                 <ul>
                   <li><strong>CSE221: Algorithms Course Student Tutor</strong> <br />
@@ -164,7 +164,7 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h4 className="mb-0">BRAC University</h4>
-              <div className="subheading mb-3 lowercase">Bachelor of Science</div>
+              <div className="subheading mb-3 withBorder">Bachelor of Science</div>
               <div>Computer Science & Enginering</div>
               <p>GPA: 3.87 (Highest Distinction)</p>
             </div>

@@ -60,7 +60,7 @@ p.lead {
   @include body-font;
   font-size: 1.2rem;
 
-  &.lowercase {
+  &.withBorder {
     text-transform: unset;
     border-bottom: 2px solid $red;
     width: max-content;
