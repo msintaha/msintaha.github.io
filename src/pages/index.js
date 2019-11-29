@@ -188,28 +188,31 @@ const IndexPage = () => (
             Programming Languages &amp; Tools
           </div>
           <ul className="list-inline dev-icons">
-            <li className="list-inline-item">
+            <li className="list-inline-item" title="Python">
               <i className="fab fa-python"></i>
             </li>
-            <li className="list-inline-item">
+            <li className="list-inline-item" title="JavaScript">
               <i className="fab fa-js-square"></i>
             </li>
-            <li className="list-inline-item">
+            <li className="list-inline-item" title="Java">
               <i className="fab fa-java"></i>
             </li>
-            <li className="list-inline-item">
-              <i className="fab fa-angular"></i>
-            </li>
-            <li className="list-inline-item">
+            <li className="list-inline-item" title="ReactJS">
               <i className="fab fa-react"></i>
             </li>
-            <li className="list-inline-item">
+            <li className="list-inline-item" title="AngularJS">
+              <i className="fab fa-angular"></i>
+            </li>
+            <li className="list-inline-item" title="NodeJS">
               <i className="fab fa-node-js"></i>
             </li>
-            <li className="list-inline-item">
+            <li className="list-inline-item" title="Sass">
               <i className="fab fa-sass"></i>
             </li>
-            <li className="list-inline-item">
+            <li className="list-inline-item" title="PHP">
+              <i className="fab fa-php"></i>
+            </li>
+            <li className="list-inline-item" title="WordPress">
               <i className="fab fa-wordpress"></i>
             </li>
           </ul>
