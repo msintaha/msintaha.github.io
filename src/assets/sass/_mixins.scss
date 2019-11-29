@@ -1,0 +1,15 @@
+// Mixins
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('../fonts/helveticaneue-light.ttf');
+}
+
+@mixin body-font {
+  font-family: 'Helvetica Neue';
+}
+@mixin heading-font {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+}
