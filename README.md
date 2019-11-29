@@ -1,0 +1,3 @@
+- Checkout to and pull from master-source
+- Make changes
+- Deploy using `yarn run deploy`
