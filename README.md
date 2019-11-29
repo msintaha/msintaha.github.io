@@ -1,3 +1,4 @@
-- Checkout to and pull from master-source
+- Checkout to `master-source` and pull from it
 - Make changes
 - Deploy using `yarn run deploy`
+- Do NOT push commits to `master`
