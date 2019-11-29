@@ -18,7 +18,7 @@ const IndexPage = () => (
             {config.firstName}
             <span className="text-primary">{config.lastName}</span>
           </h2>
-          <div className="subheading mb-5 lowercase">
+          <div className="subheading mb-5 lowercase main">
             {config.address} ·&nbsp;
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>

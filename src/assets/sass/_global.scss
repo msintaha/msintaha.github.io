@@ -19,7 +19,6 @@ h5,
 h6 {
   @include heading-font;
   font-weight: 700;
-  // text-transform: uppercase;
   color: $gray-800;
 }
 
@@ -65,6 +64,10 @@ p.lead {
     text-transform: unset;
     border-bottom: 2px solid $red;
     width: max-content;
+  }
+
+  &.main {
+    border: none;
   }
 }
 
