@@ -4,6 +4,9 @@ import Scroll from './Scroll';
 
 import avatar from '../assets/images/avatar.jpg';
 import config from '../../config';
+import OffClickWrapper from './OffClickWrapper';
+
+const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
 export class Sidebar extends Component {
   constructor(props) {
@@ -17,11 +20,23 @@ export class Sidebar extends Component {
         { content: 'Interests', href: 'interests' },
         { content: 'Awards', href: 'awards' },
       ],
+      showNav: isMobile ? false : true
     };
+
+    this.toggleNav = this.toggleNav.bind(this);
+    this.hideNav = this.hideNav.bind(this);
+  }
+
+  toggleNav() {
+    this.setState(prevState => ({ showNav: !prevState.showNav }));
+  }
+
+  hideNav() {
+    this.setState({ showNav: false });
   }
 
   render() {
-    const { tabs } = this.state;
+    const { showNav, tabs } = this.state;
     return (
       <nav
         className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
@@ -42,35 +57,39 @@ export class Sidebar extends Component {
         <button
           className="navbar-toggler"
           type="button"
-          data-toggle="collapse"
           data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          onClick={this.toggleNav}
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <Scrollspy
-            items={tabs.map(s => s.href)}
-            currentClassName="active"
-            offset={-300}
-            className="navbar-nav"
-          >
-            {tabs.map((tab, i) => {
-              const { href, content } = tab;
-              return (
-                <li className="nav-item" key={href}>
-                  <Scroll type="id" element={href}>
-                    <a className="nav-link" href={`#${href}`}>
-                      {content}
-                    </a>
-                  </Scroll>
-                </li>
-              );
-            })}
-          </Scrollspy>
-        </div>
+        {showNav &&
+          <div className="navbar-collapse" id="navbarSupportedContent">
+            <OffClickWrapper onOffClick={this.hideNav}>
+              <Scrollspy
+                items={tabs.map(s => s.href)}
+                currentClassName="active"
+                offset={-300}
+                className="navbar-nav"
+              >
+                {tabs.map((tab, i) => {
+                  const { href, content } = tab;
+                  return (
+                    <li className="nav-item" key={href}>
+                      <Scroll type="id" element={href}>
+                        <a className="nav-link" href={`#${href}`}>
+                          {content}
+                        </a>
+                      </Scroll>
+                    </li>
+                  );
+                })}
+              </Scrollspy>
+            </OffClickWrapper>
+          </div>
+        }
       </nav>
     );
   }
