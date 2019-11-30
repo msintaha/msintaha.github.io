@@ -285,7 +285,7 @@ const IndexPage = () => (
             </li>
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              &nbsp;place and 3<sup>rd</sup> place  winner in Inter-office Hackathon 2019 at November for integrating a pdf/doc annotator and making our company platform mobile responsive.
+              &nbsp;place and 3<sup>rd</sup> place winner in Inter-office Hackathon 2019 at November for integrating a pdf/doc annotator and making our company platform mobile responsive.
             </li>
           </ul>
         </div>
