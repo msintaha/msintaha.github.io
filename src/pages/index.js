@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
+import logo from '../assets/images/logo.png';
 
 const IndexPage = () => (
   <Layout>
@@ -14,6 +15,8 @@ const IndexPage = () => (
         id="about"
       >
         <div className="w-100">
+          <img src={logo} width="80" alt="Mifta Sintaha" />
+          <br />
           <h2 className="mb-0">
             {config.firstName}
             <span className="text-primary">{config.lastName}</span>
