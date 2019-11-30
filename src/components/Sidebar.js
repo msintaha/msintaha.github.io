@@ -6,8 +6,6 @@ import avatar from '../assets/images/avatar.jpg';
 import config from '../../config';
 import OffClickWrapper from './OffClickWrapper';
 
-const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-
 export class Sidebar extends Component {
   constructor(props) {
     super(props);
@@ -20,11 +18,29 @@ export class Sidebar extends Component {
         { content: 'Interests', href: 'interests' },
         { content: 'Awards', href: 'awards' },
       ],
-      showNav: isMobile ? false : true
+      showNav: true
     };
 
     this.toggleNav = this.toggleNav.bind(this);
     this.hideNav = this.hideNav.bind(this);
+    this.onResize = this.onResize.bind(this);
+  }
+
+  componentDidMount() {
+    this.onResize();
+    window.addEventListener('resize', this.onResize, false);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.onResize, false)
+  }
+
+  onResize() {
+    if (window.innerWidth <= 995) {
+      this.hideNav();
+    } else {
+      this.setState({ showNav: true });
+    }
   }
 
   toggleNav() {
