@@ -41,6 +41,7 @@ module.exports = {
   email: 'msintaha94@gmail.com',
   address: 'Dhaka, Bangladesh',
   newscredExperience: [
+    'Experienced in working with Agile/Scrum methodology',
     'Designed and built new features for NewsCred\'s Content Marketing Software',
     'Used microservice architecture to split out software features',
     'Migrated DB models by double-writing data and backpoping via scripts',
@@ -54,7 +55,7 @@ module.exports = {
     'Built a feature for making ad-hoc work requests with custom form builder for taking in inputs from requesters. Used ReactJS and Flask for the backend using design patterns like Factory Pattern and Strategy Pattern and maintained SOLID principles like SRP and Interface Segregation principle',
     'Created a Design Library with NewsCred’s brand related design using ReactJS and created both representational and smart components for effective code reuse. Introduced design patterns and code conventions for said design library. Showcased the design on a DSM (Design system manager) like Storybook with documentation',
     'Improved Feature Performance by analyzing Google Stackdriver to identify N+1 API calls and optimized those services. Monitored using NewRelic dashboard',
-    'Added Testim tests by capturing journeys of features and validated regression tests'
+    'Added Testim test suites by capturing journeys of features to prevent regression'
   ],
   youtubeExperience: [
     'Created video tutorials on theoretical topics of Computer Science e.g. Algorithms, Compiler Design, Automata & Computability, Database Systems, Computer Architecture, Graphics, Networking Systems, Java programming simulations, Operating Systems, DC Circuits',
