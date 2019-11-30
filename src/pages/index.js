@@ -26,11 +26,11 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            Mifta is a Software Engineer at NewsCred and is presently focusing on new technologies that are out and about to make everyone's life easier. She has expertise on all things JavaScript and Python.
+            Mifta is a Software Engineer currently working at <a href="https://newscred.com">NewsCred</a> and has expertise on all things JavaScript and Python.
             Having an Engineering degree, Mifta also composes instructional tutorials for an international audience of Computer Science students on YouTube, hoping to aid them in their studies.
             She is eager to start asking questions - to observe and solve the next puzzle. <i className="fa fa-puzzle-piece"></i> <br/>
             Her ultimate mission is to master the art of software engineering and aims to build something worth remembering that will aid in making peoples' lives easier.
-            Mifta is a team player and her specialty is her ability to take ownership, manage a team and punctuality in getting shit <i className="fa fa-tasks"></i> done!
+            Mifta is a team player and her specialty is her ability to take ownership, manage her team and workflow while maintaining punctuality in getting shit <i className="fa fa-tasks"></i> done!
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
