@@ -51,7 +51,7 @@ module.exports = {
     'Designed and implemented an article recommender system using ElasticSearch MLT by taking a user\'s journey to compare with regular tags and categories grouping algorithm and did A/B testing to compare click through rates. Set up CDNs for serving Javascript for Recommended Articles Widget',
     'Collected usage analytics and Wrote SQL queries for visualizing data on feature usage in Periscope',
     'Designed and implemented a dashboard integrated with various in-house microservice APIs to automate repetitive client on-boarding tasks with a UI for support team. Dockerized build and deploy',
-    'Created a Content Scoring system from scratch using Yoast’s SEO analysis and SEMrush’s keywords data mining to score content based on most used words in Google’s top 20 search results',
+    'Created a Content Scoring system using Yoast’s SEO analysis and SEMrush’s keywords data mining to score content based on most used words in Google’s top 20 search results',
     'Built a feature for making ad-hoc work requests with custom form builder for taking in inputs from requesters. Used ReactJS and Flask for the backend using design patterns like Factory Pattern and Strategy Pattern and maintained SOLID principles like SRP and Interface Segregation principle',
     'Created a Design Library with NewsCred’s brand related design using ReactJS and created both representational and smart components for effective code reuse. Introduced design patterns and code conventions for said design library. Showcased the design on a DSM (Design system manager) like Storybook with documentation',
     'Improved Feature Performance by analyzing Google Stackdriver to identify N+1 API calls and optimized those services. Monitored using NewRelic dashboard',
