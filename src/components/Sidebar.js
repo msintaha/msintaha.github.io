@@ -83,7 +83,7 @@ export class Sidebar extends Component {
         </button>
         {showNav &&
           <div className="navbar-collapse" id="navbarSupportedContent">
-            <OffClickWrapper onOffClick={this.hideNav}>
+            <OffClickWrapper onOffClick={this.onResize}>
               <Scrollspy
                 items={tabs.map(s => s.href)}
                 currentClassName="active"
