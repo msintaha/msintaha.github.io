@@ -57,9 +57,9 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h4 className="mb-0">Software Engineer</h4>
-              <div className="subheading mb-3 withBorder">NewsCred</div>
+              <div className="subheading mb-3 withBorder">NewsCred (currently Welcome)</div>
               <p>
-                Enhanced the experience and built features for NewsCred's main software - <a href="https://www.newscred.com/platform/">The Marketing Platform</a> <br />
+                Enhanced the experience and built features for Welcome's SaaS <a href="https://www.welcomesoftware.com">platform</a> <br />
                 <ul>
                   {config.newscredExperience.map(e => <li>{e}</li>)}
                 </ul>
@@ -286,6 +286,10 @@ const IndexPage = () => (
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
               &nbsp;place and 3<sup>rd</sup> place winner in Inter-office Hackathon 2019 at November for integrating a pdf/doc annotator and making our company platform mobile responsive.
+            </li>
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>People's
+              &nbsp;choice winner in Inter-office Hackathon 2020 on September for building a kanban board as well as quick task creation within the kanban board.
             </li>
           </ul>
         </div>
