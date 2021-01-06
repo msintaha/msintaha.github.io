@@ -42,23 +42,25 @@ module.exports = {
   address: 'Dhaka, Bangladesh',
   newscredExperience: [
     'Experienced in working with Agile/Scrum methodology',
-    'Designed and built new features for NewsCred\'s Content Marketing Software',
+    'Designed and built various features for NewsCred/Welcome\'s SaaS platform',
     'Used microservice architecture to split out software features',
     'Migrated DB models by double-writing data and backpoping via scripts',
-    'Took leadership roles and ownership of services and it\'s maintenance',
-    'Wrote tech specs for feature architecture, flow diagrams and presented them in architecture meetings',
-    '3rd party API integration and caching to overcome rate limits',
+    'Took leadership roles and ownership of microservices and it\'s maintenance as a core contributer',
+    'Wrote tech specs for feature architecture with flow diagrams, risk analysis, goals and non-goals; presented them in architecture meetings',
+    'Integrated 3rd party APIs like SEMRush and cached requests to overcome rate limits',
+    'Worked with completed grids in the UI to create resource management system for marketers',
     'Designed and implemented an article recommender system using ElasticSearch MLT by taking a user\'s journey to compare with regular tags and categories grouping algorithm and did A/B testing to compare click through rates. Set up CDNs for serving Javascript for Recommended Articles Widget',
-    'Collected usage analytics and Wrote SQL queries for visualizing data on feature usage in Periscope',
+    'Collected usage analytics of new features and wrote SQL queries for visualizing data on feature usage in Periscope',
     'Designed and implemented a dashboard integrated with various in-house microservice APIs to automate repetitive client on-boarding tasks with a UI for support team. Dockerized build and deploy',
     'Created a Content Scoring system using Yoast’s SEO analysis and SEMrush’s keywords data mining to score content based on most used words in Google’s top 20 search results',
-    'Built a feature for making ad-hoc work requests with custom form builder for taking in inputs from requesters. Used ReactJS and Flask for the backend using design patterns like Factory Pattern and Strategy Pattern and maintained SOLID principles like SRP and Interface Segregation principle',
+    'Built a feature for making ad-hoc work requests with custom form builder for taking in inputs from requesters with advanced UI drag/drop and validations. Used ReactJS and Flask for the backend using design patterns like Factory Pattern and Strategy Pattern and maintained SOLID principles like SRP and Interface Segregation principle',
     'Created a Design Library with NewsCred’s brand related design using ReactJS and created both representational and smart components for effective code reuse. Introduced design patterns and code conventions for said design library. Showcased the design on a DSM (Design system manager) like Storybook with documentation',
     'Improved Feature Performance by analyzing Google Stackdriver to identify N+1 API calls and optimized those services. Monitored using NewRelic dashboard',
+    'Using open source state machine (DFA) libraries which led to greater code manageability and readability due to reduced number of code branches/conditionals',
     'Added Testim test suites by capturing journeys of features to prevent regression'
   ],
   youtubeExperience: [
     'Created video tutorials on theoretical topics of Computer Science e.g. Algorithms, Compiler Design, Automata & Computability, Database Systems, Computer Architecture, Graphics, Networking Systems, Java programming simulations, Operating Systems, DC Circuits',
-    'Created tutorials on Javascript Web frameworks e.g. MEAN stack'
+    'Created tutorials on Javascript Web frameworks e.g. MEAN stack, React basics'
   ]
 };
