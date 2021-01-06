@@ -56,7 +56,7 @@ module.exports = {
     'Built a feature for making ad-hoc work requests with custom form builder for taking in inputs from requesters with advanced UI drag/drop and validations. Used ReactJS and Flask for the backend using design patterns like Factory Pattern and Strategy Pattern and maintained SOLID principles like SRP and Interface Segregation principle',
     'Created a Design Library with NewsCred’s brand related design using ReactJS and created both representational and smart components for effective code reuse. Introduced design patterns and code conventions for said design library. Showcased the design on a DSM (Design system manager) like Storybook with documentation',
     'Improved Feature Performance by analyzing Google Stackdriver to identify N+1 API calls and optimized those services. Monitored using NewRelic dashboard',
-    'Using open source state machine (DFA) libraries which led to greater code manageability and readability due to reduced number of code branches/conditionals',
+    'Implemented open source state machine (DFA) libraries which led to greater code manageability and readability due to reduced number of code branches/conditionals',
     'Added Testim test suites by capturing journeys of features to prevent regression'
   ],
   youtubeExperience: [
