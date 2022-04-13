@@ -39,7 +39,7 @@ module.exports = {
     },
   ],
   email: 'msintaha94@gmail.com',
-  address: 'Dhaka, Bangladesh',
+  address: 'Vancouver, British Columbia, Canada',
   newscredExperience: [
     'Experienced in working with Agile/Scrum methodology',
     'Designed and built various features for NewsCred/Welcome\'s SaaS platform',

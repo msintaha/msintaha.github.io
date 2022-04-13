@@ -1,4 +1,5 @@
-import React from 'react';
+
+rt React from 'react';
 
 import Layout from '../components/Layout';
 
@@ -26,7 +27,8 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            Mifta is a Software Engineer currently working at <a href="https://newscred.com">NewsCred</a> and has expertise on all things JavaScript and Python.
+            Mifta is a Software Engineer and a YouTube Content Creator. She is currently pursuing her Master's Degree in Computer and Software Engineering at the University of British Columbia.&nbsp;
+            She previously worked as a Full Stack Software Engineer for 4.5 years at <a href="https://welcomesoftware.com">Welcome</a> (now Optimizely).
             Having an Engineering degree, Mifta also composes instructional tutorials for an international audience of Computer Science students on YouTube, hoping to aid them in their studies.
             She is eager to start asking questions - to observe and solve the next puzzle. <i className="fa fa-puzzle-piece"></i> <br/>
             Her ultimate mission is to master the art of software engineering and aims to build something worth remembering that will aid in making peoples' lives easier.
@@ -57,7 +59,7 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h4 className="mb-0">Software Engineer</h4>
-              <div className="subheading mb-3 withBorder">NewsCred (currently Welcome)</div>
+              <div className="subheading mb-3 withBorder">Welcome (currently Optimizely)</div>
               <p>
                 Enhanced the experience and built features for Welcome's SaaS <a href="https://www.welcomesoftware.com">platform</a> <br />
                 <ul>
@@ -66,7 +68,7 @@ const IndexPage = () => (
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">November 2016 - Present</span>
+              <span className="text-primary">November 2016 - May 2021</span>
             </div>
           </div>
 
@@ -299,3 +301,4 @@ const IndexPage = () => (
 );
 
 export default IndexPage;
+
