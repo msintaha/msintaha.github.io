@@ -1,5 +1,5 @@
 
-rt React from 'react';
+import React from 'react';
 
 import Layout from '../components/Layout';
 
@@ -27,8 +27,8 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            Mifta is a Software Engineer and a YouTube Content Creator. She is currently pursuing her Master's Degree in Computer and Software Engineering at the University of British Columbia.&nbsp;
-            She previously worked as a Full Stack Software Engineer for 4.5 years at <a href="https://welcomesoftware.com">Welcome</a> (now Optimizely).
+            Mifta is a Full Stack Software Engineer and a YouTube Content Creator. She is currently pursuing her Master's Degree in Computer and Software Engineering at the University of British Columbia.&nbsp;
+            She previously worked as a Software Engineer for 4.5 years at <a href="https://welcomesoftware.com">Welcome</a> (now Optimizely).
             Having an Engineering degree, Mifta also composes instructional tutorials for an international audience of Computer Science students on YouTube, hoping to aid them in their studies.
             She is eager to start asking questions - to observe and solve the next puzzle. <i className="fa fa-puzzle-piece"></i> <br/>
             Her ultimate mission is to master the art of software engineering and aims to build something worth remembering that will aid in making peoples' lives easier.

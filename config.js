@@ -52,12 +52,15 @@ module.exports = {
     'Designed and implemented an article recommender system using ElasticSearch MLT by taking a user\'s journey to compare with regular tags and categories grouping algorithm and did A/B testing to compare click through rates. Set up CDNs for serving Javascript for Recommended Articles Widget',
     'Collected usage analytics of new features and wrote SQL queries for visualizing data on feature usage in Periscope',
     'Designed and implemented a dashboard integrated with various in-house microservice APIs to automate repetitive client on-boarding tasks with a UI for support team. Dockerized build and deploy',
+    'Created a chat application for real-time conversations within the platform using sockets. Added content reference tagging within the conversation window using ‘@’ and ‘#’.',
     'Created a Content Scoring system using Yoast’s SEO analysis and SEMrush’s keywords data mining to score content based on most used words in Google’s top 20 search results',
     'Built a feature for making ad-hoc work requests with custom form builder for taking in inputs from requesters with advanced UI drag/drop and validations. Used ReactJS and Flask for the backend using design patterns like Factory Pattern and Strategy Pattern and maintained SOLID principles like SRP and Interface Segregation principle',
     'Created a Design Library with NewsCred’s brand related design using ReactJS and created both representational and smart components for effective code reuse. Introduced design patterns and code conventions for said design library. Showcased the design on a DSM (Design system manager) like Storybook with documentation',
     'Improved Feature Performance by analyzing Google Stackdriver to identify N+1 API calls and optimized those services. Monitored using NewRelic dashboard',
-    'Implemented open source state machine (DFA) libraries which led to greater code manageability and readability due to reduced number of code branches/conditionals',
-    'Added Testim test suites by capturing journeys of features to prevent regression'
+    'Created a Kanban board that makes multiple network calls to change status. Implemented open source state machine (DFA) libraries which led to greater code manageability and readability due to reduced number of code branches/conditionals',
+    'Added Testim test suites by capturing journeys of features to prevent regression',
+    'Created an inline commenting tool within the text editor (TinyMCE) and in read mode. Added user mentions and maintained data consistency to avoid race conditions.',
+    'Built a resource planner module with AG-grid to show a calendar view and enable complex drag/drop operations to show time allocation. Fetched data from microservice written in Flask which supports the logic for calculating the resources based on days and hours.',
   ],
   youtubeExperience: [
     'Created video tutorials on theoretical topics of Computer Science e.g. Algorithms, Compiler Design, Automata & Computability, Database Systems, Computer Architecture, Graphics, Networking Systems, Java programming simulations, Operating Systems, DC Circuits',
