@@ -27,24 +27,24 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-bb29f24bb3abaab83759.js"
+    "url": "webpack-runtime-37e8238c350f276169f0.js"
   },
   {
     "url": "framework-8d0421e14e90d1d3950d.js"
   },
   {
-    "url": "app-14a6a33872ae4ad6e71b.js"
+    "url": "app-87e415d2eb7ccf93c78e.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "4bee3cd05ab200b5b5638b601b13cf24"
+    "revision": "eb0740fe0ccd64d4d2b087365a399e3f"
   },
   {
     "url": "polyfill-e4368190e081d68edca9.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "c42932694ed476ea467456b8b11a7725"
+    "revision": "1470a23b767bdb0b73dcb038c2f50403"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -149,12 +149,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/msintaha.github.io`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/msintaha.github.io/app-14a6a33872ae4ad6e71b.js`))) {
+  if (!resources || !(await caches.match(`/app-87e415d2eb7ccf93c78e.js`))) {
     return await fetch(event.request)
   }
 
@@ -167,7 +167,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/msintaha.github.io/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
