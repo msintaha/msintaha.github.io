@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#d63354',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/icon.jpeg',
-  pathPrefix: `/msintaha.github.io`, // This path is subpath of your hosting https://domain/portfolio
+  // pathPrefix: `/msintaha.github.io`, // This path is subpath of your hosting https://domain/portfolio
   firstName: 'Mifta',
   lastName: 'Sintaha',
   // social
