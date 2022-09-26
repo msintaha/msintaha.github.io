@@ -165,7 +165,17 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h3 className="mb-5">Education</h3>
-
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h4 className="mb-0">The University of British Columbia (UBC)</h4>
+              <div className="subheading mb-3 withBorder">Master of Applied Science</div>
+              <div>Computer Enginering</div>
+              <p>Grade: 92%</p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">January 2021 - December 2022</span>
+            </div>
+          </div>
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h4 className="mb-0">BRAC University</h4>
@@ -253,7 +263,7 @@ const IndexPage = () => (
         <div className="w-100">
           <h3 className="mb-5">Interests</h3>
           <p>
-            Apart from being a software engineer, I enjoy traveling, vlogging, sipping coffee, watching animes and tv shows, reading fantasy novels.
+            Apart from being a software engineer, I enjoy traveling, vlogging, coffee and cafe hopping, going to the beach, watching animes and tv shows, reading fantasy novels.
             <br /> I also <i className="fa fa-heart"></i> hackathons and creating YouTube tutorials.
           </p>
         </div>
