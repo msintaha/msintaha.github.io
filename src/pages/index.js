@@ -59,9 +59,9 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h4 className="mb-0">Software Engineer</h4>
-              <div className="subheading mb-3 withBorder">Welcome (currently Optimizely)</div>
+              <div className="subheading mb-3 withBorder">Optimizely (previously NewsCred)</div>
               <p>
-                Enhanced the experience and built features for Welcome's SaaS <a href="https://www.welcomesoftware.com">platform</a> <br />
+                Enhanced the experience and built features for the SaaS <a href="https://www.optimizely.com/products/content-marketing/">platform</a> <br />
                 <ul>
                   {config.newscredExperience.map(e => <li>{e}</li>)}
                 </ul>
