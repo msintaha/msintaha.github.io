@@ -62,7 +62,7 @@ const IndexPage = () => (
               <div className="subheading mb-3 withBorder">University of British Columbia</div>
               <p>
                 <ul>
-                  <li>Research Assistant at SALT (Software Analysis and Testing) Lab where I worked collaboratively with peers and solved research problems to publish them in top conferences/journals.</li>
+                  <li>Research Assistant at SALT (Software Analysis and Testing) Lab where I worked collaboratively with peers and solved research problems to publish them in top conferences/journals. Relevant Technologies: PyTorch, OpenAI Codex, Huggingface GPT models, Understand by SciTools.</li>
                   <li>Teaching Assistant for the Course CPEN 322 (Software Construction II) in Winter Term 1, 2022. I was responsible for grading assignments, lab hours and coming up with exam test cases.</li>
                 </ul>
               </p>
