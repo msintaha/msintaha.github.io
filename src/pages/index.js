@@ -58,6 +58,22 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
+              <h4 className="mb-0">Graduate Research & Teaching Assistant</h4>
+              <div className="subheading mb-3 withBorder">University of British Columbia</div>
+              <p>
+                <ul>
+                  <li>Research Assistant at SALT (Software Analysis and Testing) Lab where I worked collaboratively with peers and solved research problems to publish them in top conferences/journals.</li>
+                  <li>Teaching Assistant for the Course CPEN 322 (Software Construction II) in Winter Term 1, 2022. I was responsible for grading assignments, lab hours and coming up with exam test cases.</li>
+                </ul>
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">January 2021 - December 2022</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
               <h4 className="mb-0">Software Engineer</h4>
               <div className="subheading mb-3 withBorder">Optimizely (previously NewsCred)</div>
               <p>
@@ -170,7 +186,7 @@ const IndexPage = () => (
               <h4 className="mb-0">The University of British Columbia (UBC)</h4>
               <div className="subheading mb-3 withBorder">Master of Applied Science</div>
               <div>Computer Enginering</div>
-              <p>Grade: 92%</p>
+              <p>Grade: 90.2/100 (A+)</p>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">January 2021 - December 2022</span>
