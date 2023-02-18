@@ -58,6 +58,23 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
+              <h4 className="mb-0">Software Developer</h4>
+              <div className="subheading mb-3 withBorder">Clio</div>
+              <p>
+                Tech stack: Ruby on Rails, ReactJS, AlpineJS, AngularJS.
+                <ul>
+                  <li>Maintenance of the microsoft/gmail integrations in the Clio Manage App</li>
+                  <li>Enhancing the features of the contacts section in Clio Manage App</li>
+                </ul>
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">January 2023 - Present</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
               <h4 className="mb-0">Graduate Research & Teaching Assistant</h4>
               <div className="subheading mb-3 withBorder">University of British Columbia</div>
               <p>
@@ -256,7 +273,7 @@ const IndexPage = () => (
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Flask/Django
+              Flask/Django/Ruby on Rails
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
@@ -322,6 +339,35 @@ const IndexPage = () => (
           </ul>
         </div>
       </section>
+
+      <section
+        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="publications"
+      >
+        <div className="w-100">
+          <h3 className="mb-5">Publications</h3>
+          <ul className="fa-ul mb-0">
+            <li>
+              <i className="fa-li fa fa-book text-success"></i>
+              <a href="https://dl.acm.org/doi/10.1145/3579640"><strong>Katana: Dual Slicing-Based Context for Learning Bug Fixes</strong></a> - TOSEM, 2023<br />
+              <em>
+                Mifta Sintaha, Noor Nashid, and Ali Mesbah. 2023. Katana: Dual Slicing-Based Context for Learning Bug Fixes. ACM Trans. Softw. Eng. Methodol. Just Accepted (February 2023). https://doi.org/10.1145/3579640
+              </em>
+            </li>
+            <li>
+              <i className="fa-li fa fa-book text-success"></i>
+              <a href="https://ieeexplore.ieee.org/document/8631958"><strong>An Empirical Study and Analysis of the Machine Learning
+                Algorithms Used in Detecting Cyberbullying in Social Media</strong></a> - ICCIT, 2018 <br />
+              <em>
+                M. Sintaha and M. Mostakim, "An Empirical Study and Analysis of the Machine Learning
+                Algorithms Used in Detecting Cyberbullying in Social Media," 2018 21st International
+                Conference of Computer and Information Technology (ICCIT), Dhaka, Bangladesh, 2018, pp.1-6. 
+              </em>
+            </li>
+          </ul>
+        </div>
+      </section>
+
     </div>
   </Layout>
 );
