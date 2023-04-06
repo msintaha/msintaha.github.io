@@ -202,7 +202,7 @@ const IndexPage = () => (
             <div className="resume-content">
               <h4 className="mb-0">The University of British Columbia (UBC)</h4>
               <div className="subheading mb-3 withBorder">Master of Applied Science</div>
-              <div>Computer Enginering</div>
+              <div>Computer Engineering</div>
               <p>Grade: 90.2/100 (A+)</p>
             </div>
             <div className="resume-date text-md-right">
@@ -213,7 +213,7 @@ const IndexPage = () => (
             <div className="resume-content">
               <h4 className="mb-0">BRAC University</h4>
               <div className="subheading mb-3 withBorder">Bachelor of Science</div>
-              <div>Computer Science & Enginering</div>
+              <div>Computer Science & Engineering</div>
               <p>GPA: 3.87 (Highest Distinction)</p>
             </div>
             <div className="resume-date text-md-right">
