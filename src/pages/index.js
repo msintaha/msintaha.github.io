@@ -27,12 +27,13 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            Mifta is a Full Stack Software Engineer and a YouTube Content Creator, currently working at <a href="https://www.clio.com">Clio</a>. She pursued her Master's Degree in Software Engineering at the University of British Columbia.&nbsp;
+            Mifta is a Senior Software Engineer and a YouTube Content Creator, currently working at <a href="https://www.clio.com">Clio</a>. She pursued her Master's Degree in Software Engineering at the University of British Columbia.&nbsp;
             She previously worked as a Software Engineer for 4.5 years at Welcome (now Optimizely).
             Having an Engineering degree, Mifta also composes instructional tutorials for an international audience of Computer Science students on YouTube, hoping to aid them in their studies.
             She is eager to start asking questions - to observe and solve the next puzzle. <i className="fa fa-puzzle-piece"></i> <br/>
             Her ultimate mission is to master the art of software engineering and aims to build something worth remembering that will aid in making peoples' lives easier.
             Mifta is a team player and her specialty is her ability to take ownership, manage her team and workflow while maintaining punctuality in getting shit <i className="fa fa-tasks"></i> done!
+            Currently, she's working with all things AI and fine-tuning her skills in AI based systems.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -58,11 +59,12 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h4 className="mb-0">Software Developer</h4>
+              <h4 className="mb-0">Senior Software Developer</h4>
               <div className="subheading mb-3 withBorder">Clio</div>
               <p>
-                Tech stack: Ruby on Rails, ReactJS, AlpineJS, AngularJS.
+                Tech stack: Ruby on Rails, Hotwire, ReactJS, AlpineJS, AngularJS.
                 <ul>
+                  <li>Building AI-assisted chat interfaces, recommendations and document analysis</li>
                   <li>Maintenance of the microsoft/gmail integrations in the Clio Manage App</li>
                   <li>Enhancing the features of the contacts section in Clio Manage App</li>
                 </ul>
